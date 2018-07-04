@@ -1,0 +1,37 @@
+.payHeader{height: 90px; margin-bottom: 30px; overflow: hidden;}
+.payHeader i{float: left; font-size: 90px; color: #54B233; margin-right: 10px;}
+.payHeader h6{margin: 12px 0; font-size: 20px; color: #666; font-weight: 600;}
+.payHeader p{font-size: 18px; color: #666;}
+.payHeader p a{margin-left: 100px; font-size: 14px;}
+.payMain{width: 480px; height: 210px; margin: 0 auto; text-align: center; font-size: 14px; color: #666; background-color: rgba(247, 247, 247, 1); border-radius: 4px; overflow: hidden;}
+.payMain p{margin-top: 56px;}
+.payMain h6{margin-top: 24px; font-size: 36px; color: red;}
+.payMain h6 span{font-size: 14px; color: #666;}
+.payMethod{margin-top: 30px;}
+.payMethod h6{margin-bottom: 10px; font-size: 20px; color: #666;}
+.methodBtn a{display: block; height: 130px; border-width: 3px; border-style: solid; text-align: center; line-height: 130px; border-radius: 10px; font-size: 28px;}
+.methodBtn a.wx{border-color: #54B233; color: #54B233;}
+.methodBtn a.wx.on{background-color: #54B233; color: #fff;}
+.methodBtn a.zfb{border-color: #4AA6E1; color: #4AA6E1;}
+.methodBtn a.zfb.on{background-color: #4AA6E1; color: #fff;}
+.methodBtn a.yl{border-color: #F33A3A; color: #F33A3A;}
+.methodBtn a.yl.on{background-color: #F33A3A; color: #fff;}
+.methodBtn a.xj{border-color: #FDA233; color: #FDA233;}
+.methodBtn a.xj.on{background-color: #FDA233; color: #fff;}
+.operations{margin-top: 36px; text-align: center;}
+.operations button{margin: 0 10px;}
+.modal form{margin-top: 20px;}
+.tagWrap{display: inline-block;}
+.tagIpt{width: auto;}
+.tags{border-color: rgb(204,204,204); background-color: rgb(243,243,243);}
+
+.invoiceHead{text-align: center;}
+.invoiceHead h6{margin-top: 10px;}
+.invoiceBody, .invoiceFoot, .tips{width: 250px; margin: 0 auto;}
+.invoiceBody dl, .invoiceFoot dl{height: 20px; line-height: 20px; padding: 0 10px; overflow: hidden;}
+.invoiceBody dl dt, .invoiceFoot dl dt{width:70px; float: left;}
+.invoiceBody dl dd, .invoiceFoot dl dd{margin-left: 70px;}
+.invoiceTable{margin: 6px 0;}
+.textRight{text-align: right;}
+.invoiceFoot{padding: 5px 0; margin: 5px auto; border-top: 1px dashed #e9e9e9; border-bottom: 1px dashed #e9e9e9;}
+.invoiceFoot p{padding: 0 10px;}

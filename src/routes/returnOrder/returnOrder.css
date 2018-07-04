@@ -1,0 +1,11 @@
+.searchForm { background:#f7f7f7;padding:25px 0px 0px 10px;border-radius:3px;overflow: hidden;}
+.searchForm >div{ position: relative;margin-bottom: 25px !important;margin-right: 0px !important; }
+.sForm >div{width:33%}
+.sForm >div:last-child{ width:auto;margin-bottom: 25px !important;margin-right: 3% !important; }
+.actions{margin: 20px 0 10px;}
+.action_infos{margin-bottom:10px;border-radius:3px;height:30px;background:#e6f3fc;line-height:30px;padding-left:10px;}
+.action_infos i{font-size:16px;color:#108ee9;vertical-align:middle;margin-right:5px;}
+.modalForm>div{width:50%;}
+.modalForm >div:last-child{ width:auto;margin-bottom: 25px !important;margin-right: 3% !important; }
+
+:global(.ml10){margin-left: 10px;}

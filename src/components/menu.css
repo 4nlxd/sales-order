@@ -1,0 +1,15 @@
+.sider{height:100%;}
+.sider .nav{overflow:hidden; width: 68px;background:#2a353b;color:#999;height: 100%;text-align:center;display:inline-block; }
+.nav li{ cursor: pointer; padding: 18px 0; border-left: solid 6px #2a353b;border-right: solid 6px #2a353b;}
+.nav li.current{ background:#1e252b;border-right-color:#1e252b;border-left-color:#118fea;color: #fff;}
+.sider .nav li i{ font-size:24px; }
+.nav li div{ padding-top: 5px; }
+
+.subMenus{overflow:hidden;overflow-y:auto;width: 158px; background:#232c33; color:#9b9b9b; display: inline-block;vertical-align: top; height: 100%; transition: all .2s;}
+.subMenus .title{text-align:center;border-bottom:solid 1px #7a8790;height:48px;line-height: 48px;color:#fff;font-size:14px;}
+
+.hideSubMenu{width: 0;}
+
+
+
+

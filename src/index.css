@@ -1,0 +1,20 @@
+:global(.ant-table table){font-size:12px;}
+
+/*****************后端框架样式******************/
+html, body, :global(#root), :global(.wrapper) { height: 100%; }
+@font-face {
+    font-family: 'iconfont';  /* project id 447182 */
+    src: url('//at.alicdn.com/t/font_447182_ijkj8otqytgo80k9.eot');
+    src: url('//at.alicdn.com/t/font_447182_ijkj8otqytgo80k9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_447182_ijkj8otqytgo80k9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_447182_ijkj8otqytgo80k9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_447182_ijkj8otqytgo80k9.svg#iconfont') format('svg');
+}
+
+/*权限模块用到的字体*/
+:global(.nsfont){font-size: 14px;}
+
+:global(.nsicon-menu:before) {margin-right:5px !important;}
+:global(.nsicon-button:before) {margin-right:5px !important;}
+/*****************后端框架样式******************/
+

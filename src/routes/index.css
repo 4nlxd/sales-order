@@ -1,0 +1,61 @@
+:global(#layout_background .ant-menu-dark .ant-menu-inline.ant-menu-sub) { background:#1e252b; }
+:global(#layout_background .ant-menu-inline .ant-menu-submenu-title) {height: 48px;line-height:48px; padding-left: 32px !important;text-align: left;}
+:global(#layout_background .ant-menu-dark.ant-menu-inline .ant-menu-item) {height: 32px;line-height:32px; padding-left: 32px !important;}
+:global(#layout_background .ant-menu-submenu-inline>.ant-menu-submenu-title:after) {right: 33px;}
+
+:global(#layout_background .header){ height: 56px; padding:0; background:#fff; }
+:global(#layout_background .header .userInfo){ font-size: 14px; cursor: pointer; position: relative; line-height: 56px; float: right; padding-right: 64px;color:#9b9b9b; }
+:global(#layout_background .header .userInfo:hover .userMore){display: block; }
+:global(#layout_background .header .userMore){z-index: 2000; display:none; position: absolute; top:56px; width: 90%; line-height:30px; background:#fff;}
+:global(#layout_background .header .userMore div){ padding-left: 10px; }
+:global(#layout_background .header .userMore a){ color:#9b9b9b; }
+:global(#layout_background .header .userMore a:hover){ color:#108ee9; }
+
+:global(#layout_background .anticon:before){ font-family:'anticon', 'iconfont' !important; }
+:global(#layout_background .anticon-c-edit:before){ content: '\e001' }
+:global(#layout_background .anticon-c-delete:before){ content: '\e004' }
+:global(#layout_background .anticon-c-download:before){ content: '\e003' }
+:global(#layout_background .anticon-c-ok:before){ content: '\e005' }
+:global(#layout_background .anticon-c-cancel:before){ content: '\e006' }
+
+:global(#layout_background .anticon-c-caigouxitong:before){ content: '\e007' }
+:global(#layout_background .anticon-c-dingdanguanli:before){ content: '\e008' }
+:global(#layout_background .anticon-c-fapiaoguanli:before){ content: '\e009' }
+:global(#layout_background .anticon-c-kucunguanli:before){ content: '\e010' }
+:global(#layout_background .anticon-c-huiyuanxitong:before){ content: '\e011'; font-size: 28px; }
+:global(#layout_background .anticon-c-cuxiaoguanli:before){ content: '\e012' }
+:global(#layout_background .anticon-c-shezhi:before){ content: '\e013' }
+:global(#layout_background .anticon-c-shouye:before){ content: '\e014' }
+:global(#layout_background .anticon-c-tongjifenxi:before){ content: '\e015' }
+:global(#layout_background .anticon-c-xinxiweihu:before){ content: '\e016'; font-size: 20px; }
+:global(#layout_background .anticon-c-xiaoxi:before){ content: '\e017' }
+:global(#layout_background .ant-menu-submenu-inline>.ant-menu-submenu-title:after){ content: '\e018'; font-family: 'iconfont' !important; color: #999; transform:rotate(180deg); }
+:global(#layout_background .ant-menu-submenu-open.ant-menu-submenu-inline>.ant-menu-submenu-title:after){transform:rotate(0deg); color: #ced0eb;}
+:global(#layout_background .anticon-c-yonghu:before){ content: '\e019' }
+
+:global(#layout_background .breadcrumb-wrapper) { height:18px;line-height:18px;margin: 8px; color: rgba(0, 0, 0, .43); }
+:global(#layout_background .content-wrapper) { background: #fff; padding: 20px; border-radius: 3px; }
+:global(#layout_background .menuTitle) { height: 28px;line-height: 20px; font-size: 20px; margin-bottom: 23px; }
+:global(#layout_background .menuTitle div) { border-left: solid 3px #118fea; padding-left:15px; margin-top:4px }
+:global(#layout_background .searchForm) { padding:20px;border-radius:3px;}
+:global(#layout_background .actions){ margin: 20px 0 10px;}
+:global(#layout_background .actions .ant-btn){ margin-right: 8px;}
+:global(#layout_background .actions div){ display:inline-block; vertical-align:bottom; }
+:global(#layout_background .medias .ant-upload-list){width: 300px; }
+:global(#layout_background .medias .ant-upload-list div){display:block; }
+:global(#layout_background .action-infos){ margin-bottom:10px;border-radius:3px;height:30px;background:#e6f3fc;line-height:30px;padding-left:10px; }
+:global(#layout_background .action-infos i){ font-size:16px;color:#108ee9;vertical-align:middle;margin-right:5px;}
+:global(#layout_background .action-infos .nums){ color:#108ee9;padding:0 5px;}
+:global(#layout_background .action-infos .tip){ margin-left:20px; }
+
+
+:global(#layout_background .sForm) { background:#f7f7f7;padding:20px;border-radius:3px;overflow: hidden;}
+:global(#layout_background .sForm) :global(.ant-row){ width:39%; }
+:global(#layout_background .sForm) :global(label) { font-size:14px;color:#666 !important; }
+
+:global(#layout_background .mr5){ margin-right:5px; }
+:global(#layout_background .none){ display: none !important; }
+
+.biglogo{float: left; width: 226px; height: 56px; background: url('../assets/logo-226-56.jpg') no-repeat; overflow: hidden;}
+.smalllogo{float: left; width: 68px; height: 56px; background: url('../assets/logo-68-56.jpg') no-repeat; overflow: hidden;}
+

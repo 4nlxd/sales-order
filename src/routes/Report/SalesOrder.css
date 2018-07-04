@@ -1,0 +1,11 @@
+.operation a{padding: 0 2px;}
+.pointGray i{color: gray;}
+.pointOragin i{color: orange;}
+.pointBlue i{color: blue;}
+.form{padding-top: 24px; margin-bottom: 20px; background-color: #fbfbfb; border-radius: 6px;}
+.resultHead{margin-bottom: 10px;}
+.printer{margin-right: 10px;}
+.headerInfo{padding: 20px 24px; background-color: #f7f7f7; border-radius: 5px; margin-bottom: 20px;}
+.headerTitile{font-size: 18px; margin-bottom: 10px;}
+.headerInfoItem{margin: 10px 0; color: #666;}
+.headerInfoItem span{color:#989898;}

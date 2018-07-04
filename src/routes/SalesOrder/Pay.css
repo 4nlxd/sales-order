@@ -1,0 +1,37 @@
+.payPage{width: 1200px; margin: 0 auto; padding: 20px;}
+.payHeader{height: 90px; margin-bottom: 30px; overflow: hidden;}
+.payHeader i{float: left; font-size: 90px; color: #54B233; margin-right: 10px;}
+.payHeader h6{margin: 12px 0; font-size: 20px; color: #666; font-weight: 600;}
+.payHeader p{font-size: 18px; color: #666;}
+.payHeader p a{margin-left: 100px;}
+.payMain{width: 560px; height: 270px; margin: 0 auto; text-align: center; color: #666; background-color: #fff; border-radius: 4px; overflow: hidden;}
+.payMainAll div{display:none}
+.payMain p{height: 26px; line-height: 26px; font-size: 20px; margin-top: 30px;}
+.payMainAll p{margin-top: 80px}
+.payMain h6{height: 116px; line-height: 116px; font-size: 48px; font-weight: 600; color: red;}
+.payMain h6 span{color: #666;}
+.payMethod{width: 840px; margin: 30px auto;}
+.payMethod h6{margin-bottom: 10px; font-size: 20px; color: #666;}
+.methodBtn{margin: 0 -10px;}
+.methodBtn a{display: inline-block; width: 194px; height: 130px; margin: 0 10px; border: 1px solid #ddd; background-color: #fff; font-size: 20px; color: #666; text-align: center; border-radius: 10px;}
+.methodBtn i{display: block; width: 60px; height: 48px; margin: 18px auto;}
+.methodBtn i.payWechat{background: url("./images/icon-wechat.png") no-repeat center bottom;}
+.methodBtn i.payDaishou{background: url("./images/icon-daishou.png") no-repeat center bottom;}
+.methodBtn i.payPos{background: url("./images/icon-pos.png") no-repeat center bottom;}
+.methodBtn i.payXianjin{background: url("./images/icon-pay.png") no-repeat center bottom;}
+.operations{margin-top: 36px; text-align: center;}
+.operations button{margin: 0 10px;}
+.modal form{margin-top: 20px;}
+.tagWrap{display: inline-block;}
+.tagIpt{width: auto;}
+.tags{border-color: rgb(204,204,204); background-color: rgb(243,243,243);}
+.scanTips{padding-top: 20px; text-align: center; line-height: 40px; font-size: 20px;}
+.payInfos{height: 90px; margin-top: 8px; border-top: 1px solid #ddd;}
+.payInfos dl{width: 50%; height: 90px; padding: 0 20px; float: left; color: #666;}
+.payInfos dl:first-child{border-right: 1px solid #ddd;}
+.payInfos dl dt{height: 40px; line-height: 40px; font-size: 18px; text-align: left;}
+.payInfos dl dd{height: 38px; list-style: 38px; font-size: 24px; font-weight: 600; text-align: right;}
+.oncePayBtn{display: block; width: 320px; height: 40px; margin: 0 auto; font-size: 14px;}
+.oncePayBtn, .oncePayBtn:hover, .oncePayBtn:focus{background-color: #6ed3cf; border: 0; color: #fff;}
+
+:global(.invoiceTable td) {font-size: 10px; padding: 0;}
